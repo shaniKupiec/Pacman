@@ -7,10 +7,10 @@ const PACMAN = '👼🏿';
 const SUPER_FOOD = '🥦';
 // const GHOST = '👻';
 const GHOST = '@';
-const FOOD_AUDIO = new Audio('sound/collect-sound.wav');
-const CHERRY_AUDIO = new Audio('sound/cherry-sound.wav');
-const SUPER_FOOD_AUDIO = new Audio('sound/superFood-sound.wav');
-const JUMP_AUDIO = new Audio('sound/jump-sound.wav');
+const FOOD_AUDIO = new Audio('newRepository/sound/collect-sound.wav');
+const CHERRY_AUDIO = new Audio('newRepository/sound/cherry-sound.wav');
+const SUPER_FOOD_AUDIO = new Audio('newRepository/sound/superFood-sound.wav');
+const JUMP_AUDIO = new Audio('~/sound/jump-sound.wav');
 const SIZE = 10;
 
 var gBoard;
