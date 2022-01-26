@@ -5,22 +5,48 @@ body {
   margin: auto;
 }
 
-.cell {
+/* .cell {
   width: 40px;
   height: 40px;
   text-align: center;
   font-size: 1.5em;
+  border-color: blue;
+  border-style: solid;
+} */
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 0.5s;
+  border: solid;
+  border-color: black;
 }
 
-table{
+.cell:hover {
+  background-color: rgb(122, 217, 255);
+}
+
+table {
   margin: auto;
+  background-color: rgb(151, 151, 151);
 }
 
-.end-game{
+.game-buttons{
+  padding: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 40px;
+  height: 35px;
+}
+
+/* .end-game{
   margin:10px;
   padding:10px;
   width: 300px;
   margin: auto;
   background-color: rgb(123, 155, 214);
   transition-duration: 2s;
-}
+} */
